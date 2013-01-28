@@ -1,0 +1,9 @@
+<figure>
+  {% if page.date != null %}
+  <img src="/images/{{ page.date | date: "%F" }}-{{ page.title | downcase }}.jpg" alt="{{ page.title }}" class="portrait">
+  <h1>{{ page.title }}</h1>
+  {% else %}
+  {% endif %}
+</figure>
+<p class="summary">{{ pgae.summary }}</p>
+<p class="date">{% include time.html %}</p>

@@ -2,11 +2,6 @@
 layout: default
 ---
 <article id="interview">
-  <figure>
-    <img src="{{ page.url | replace:"interviews","images/portraits" }}-{{ page.title | downcase }}.jpg" alt="{{ page.title }}" class="portrait" />
-    <h2 class="person">{{ page.title }}</h2>
-    <p class="summary">{{ page.summary }}</p>
-    <p class="details">Posted {{ page.date | date_to_long_string }}</p>
-  </figure>
+  {% include figure.html %}
   {{ content }}
 </article>
