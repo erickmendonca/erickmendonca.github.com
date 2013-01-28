@@ -1,6 +1,10 @@
 /* my additional colors */
 
-a:link, a:visited {
+h1 span, a:link, a:visited {
 	/* limegreen FTW */
 	color: limegreen;
+}
+
+nav ul li a {
+	color: limegreen !important;
 }
