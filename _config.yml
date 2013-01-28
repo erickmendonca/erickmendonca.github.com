@@ -1,2 +1,2 @@
 permalink: /interviews/:title.html
-exclude: ['hardware', 'software', 'views', 'README']
+exclude: ['views', 'README']
