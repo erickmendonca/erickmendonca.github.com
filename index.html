@@ -1,6 +1,17 @@
 ---
 layout: default
-title: The Setup
-
 heading: Hello
 ---
+<article id="interview">
+  {% for post in site.posts %}
+    <figure>
+      <a href="{{ post.url }}">
+        <img class="portrait" src="{{ post.url | replace:"interviews","images/portraits" }}-{{ post.title | downcase }}.jpg" alt="{{ post.title }}">
+      </a>
+      <h2 class="person">{{ post.title }}</h2>
+      <p class="summary">{{ post.summary }}</p>
+      <p class="details">Posted {{ post.date | date_to_long_string }}</p>
+    </figure>
+    {{ post.content }}
+  {% endfor %}
+</article>

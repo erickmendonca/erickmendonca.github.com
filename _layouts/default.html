@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width;initial-scale=1">
-    <title>{{ page.title }}</title>
+    <title>The Setup</title>
     <link rel="stylesheet" href="/stylesheets/screen.css">
     <link rel="stylesheet" href="/stylesheets/nzwsch.css">
     <!-- <link href="/feed/" rel="alternate" title="Atom feed" type="application/atom+xml"> -->
@@ -11,18 +11,25 @@
   <body>
     <div>
       <header>
-        <h1>The Setup / <span>{{ page.heading }}</span></h1>
+        <h1>The Setup / <span>
+          {% if page.heading != null %}
+          {{ page.heading }}
+          {% else %}
+          {{ page.date | date:"%Y" }}
+          {% endif %}
+          </span>
+        </h1>
         <p id="tagline">What do people use to <em>get stuff done</em>?</p>
+        <nav>
+          <ul>
+            <!-- TODO: url_for efforts class has been selected -->
+            <li><a href="/" title="The most recent interviews.">Home</a></li>
+            <li><a href="/interviews/" title="All the other interviews.">Interviews</a></li>
+            <li><a href="/about/" title="A little more info about the site.">About</a></li>
+            <li><a href="/community/" title="Other interviews by people like you.">Community</a></li>
+          </ul>
+        </nav>
       </header>
-      <nav>
-        <ul>
-          <!-- TODO: url_for efforts class has been selected -->
-          <li><a href="/" title="The most recent interviews.">Home</a></li>
-          <li><a href="/interviews/" title="All the other interviews.">Interviews</a></li>
-          <li><a href="/about/" title="A little more info about the site.">About</a></li>
-          <li><a href="/community/" title="Other interviews by people like you.">Community</a></li>
-        </ul>
-      </nav>
       <section id="contents">
         {{ content }}
       </section>
