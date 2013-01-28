@@ -1,2 +1,0 @@
-permalink: /interviews/:title.html
-exclude: ['views', 'README']
