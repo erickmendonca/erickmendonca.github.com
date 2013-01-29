@@ -1,3 +1,4 @@
+<!--
 <figure>
   {% if page.date != null %}
   <img src="/images/{{ page.date | date: "%F" }}-{{ page.title | downcase }}.jpg" alt="{{ page.title }}" class="portrait">
@@ -5,5 +6,12 @@
   {% else %}
   {% endif %}
 </figure>
-<p class="summary">{{ pgae.summary }}</p>
+-->
+{% if post == null %}
+<p class="summary">page{{ pgae.summary }}</p>
+<p class="summary">post{{ post.summary }}</p>
+{% else %}
+<p class="summary">page{{ pgae.summary }}</p>
+<p class="summary">post{{ post.summary }}</p>
+{% endif %}
 <p class="date">{% include time.html %}</p>

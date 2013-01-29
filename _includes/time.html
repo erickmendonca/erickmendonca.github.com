@@ -1,1 +1,5 @@
+{% if post == null %}
 Posted <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_long_string }}</time>
+{% else %}
+Posted <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+{% endif %}
