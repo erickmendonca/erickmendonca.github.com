@@ -1,0 +1,16 @@
+---
+layout : default
+---
+<article>
+  <figure class="portrait">
+    <img src="/images/{{ page.date | date: "%F" }}-{{ page.title | downcase }}.jpg">
+    <figcaption>
+      <hgroup>
+        <h1>{{ page.person  }}</h1>
+        <h2>{{ page.summary }}</h2>
+      </hgroup>
+      <p class="datetime">Posted <time datetime="{{ page.date | date: "%F" }}">{{ page.date | date_to_long_string }}</time></p>
+    </figcaption>
+  </figure>
+  {{ content }}
+</article>
