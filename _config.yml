@@ -1,3 +1,24 @@
+## Global settings
 markdown  : redcarpet
 permalink : /interviews/:year
 exclude   : README.md
+
+## Local settings
+title : The Setup
+nav   :
+  -
+    name: Home
+    desc: The most recent interviews.
+    href: /
+  -
+    name: Interviews
+    desc: All the other interviews.
+    href: /interviews/
+  -
+    name: About
+    desc: A little more info about the site.
+    href: /about/
+  -
+    name: Community
+    desc: Other interviews by people like you.
+    href: //usesthis.com/community/
