@@ -3,7 +3,7 @@ layout : default
 heading: Hello
 ---
 <article>
-  {% for post in site.posts | first %}
+  {% for post in site.posts limit: 1 %}
   <figure class="portrait">
     <img src="/images/{{ post.date | date: "%F" }}-{{ post.title | downcase }}.jpg">
     <figcaption>
