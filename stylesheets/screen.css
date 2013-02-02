@@ -1,0 +1,154 @@
+* html {
+  font-size: 100%;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.75em;
+}
+
+html {
+  background-color: white;
+  color: #1a1a1a;
+  font-family: "Open Sans";
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+}
+a:active, a:focus {
+  outline: none;
+}
+
+body {
+  padding-top: 1.75em;
+  padding-bottom: 1.75em;
+  margin: 0;
+}
+body > div {
+  margin: 0 auto;
+  width: 500px;
+  padding: 0 40px;
+}
+
+header h1 {
+  font-size: 3em;
+  line-height: 1.16667em;
+  margin-top: 0.58333em;
+  margin-bottom: 0.58333em;
+}
+header span {
+  color: #20cf6f;
+}
+header p {
+  color: #8c8c8c;
+}
+
+nav {
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.375em;
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 0.375em;
+  border-color: #bfbfbf;
+}
+nav ul {
+  list-style-type: none;
+  color: #bfbfbf;
+}
+nav ul, nav ul li {
+  margin: 0px;
+  padding: 0px;
+  display: inline;
+}
+nav ul li:after {
+  content: " / ";
+}
+nav ul li:last-child:after {
+  content: "";
+}
+nav ul li.last:after {
+  content: "";
+}
+nav li {
+  font-size: 1.5em;
+  line-height: 1.16667em;
+  line-height: 1.75em;
+}
+nav li.selected a {
+  font-weight: 500;
+}
+nav a {
+  color: #20cf6f;
+  padding: 0 0.1em;
+  border-radius: 0.2em;
+}
+nav a:hover {
+  background-color: #20cf6f;
+  color: white;
+}
+
+figure {
+  margin-top: 1.75em;
+  border-bottom-style: solid;
+  border-bottom-width: 0.0625em;
+  padding-bottom: 0.375em;
+  margin-bottom: 1.3125em;
+  border-color: #bfbfbf;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+figcaption h1 {
+  font-size: 2.25em;
+  line-height: 1.55556em;
+  line-height: 1.75em;
+  margin: 0;
+}
+figcaption h2 {
+  font-size: 1.25em;
+  line-height: 1.4em;
+  line-height: 1.4em;
+  margin: 0;
+  color: #8c8c8c;
+  font-weight: 400;
+}
+figcaption .datetime {
+  font-size: 0.875em;
+  line-height: 2em;
+  line-height: 3.5em;
+  color: #a6a6a6;
+  margin: 0;
+}
+
+article > h2 {
+  font-size: 1.875em;
+  line-height: 1.86667em;
+  line-height: 0.93333em;
+  margin-top: 0.93333em;
+  margin-bottom: 0.93333em;
+  font-weight: 500;
+}
+article > p {
+  font-size: 1.0625em;
+  line-height: 1.64706em;
+  text-align: justify;
+}
+
+footer {
+  border-top-style: solid;
+  border-top-width: 0.0625em;
+  padding-top: 0.375em;
+  margin-top: 1.3125em;
+  border-color: #bfbfbf;
+}
+footer p {
+  color: gray;
+}
+footer a {
+  text-decoration: underline;
+  color: #1a1a1a;
+}
