@@ -1,10 +1,10 @@
-* html {
+body {
   font-size: 100%;
+  line-height: 1.75em;
 }
 
-html {
+html > body {
   font-size: 16px;
-  line-height: 1.75em;
 }
 
 html {
@@ -34,10 +34,10 @@ body > div {
 }
 
 header h1 {
-  font-size: 3em;
-  line-height: 1.16667em;
-  margin-top: 0.58333em;
-  margin-bottom: 0.58333em;
+  font-size: 2.75em;
+  line-height: 1.273em;
+  margin-top: 0.636em;
+  margin-bottom: 0.636em;
 }
 header span {
   color: #20cf6f;
@@ -48,10 +48,10 @@ header p {
 
 nav {
   border-bottom-style: solid;
-  border-bottom-width: 0.0625em;
+  border-bottom-width: 0.063em;
   padding-bottom: 0.375em;
   border-top-style: solid;
-  border-top-width: 0.0625em;
+  border-top-width: 0.063em;
   padding-top: 0.375em;
   border-color: #bfbfbf;
 }
@@ -75,11 +75,11 @@ nav ul li.last:after {
 }
 nav li {
   font-size: 1.5em;
-  line-height: 1.16667em;
+  line-height: 1.167em;
   line-height: 1.75em;
 }
 nav li.selected a {
-  font-weight: 500;
+  font-weight: 700;
 }
 nav a {
   color: #20cf6f;
@@ -94,27 +94,36 @@ nav a:hover {
 figure {
   margin-top: 1.75em;
   border-bottom-style: solid;
-  border-bottom-width: 0.0625em;
+  border-bottom-width: 0.063em;
   padding-bottom: 0.375em;
-  margin-bottom: 1.3125em;
+  margin-bottom: 1.313em;
   border-color: #bfbfbf;
   margin-left: 0;
   margin-right: 0;
 }
+figure img {
+  border: black solid 1px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+  left: -1px;
+  margin-bottom: -2px;
+}
 
 figcaption h1 {
   font-size: 2.25em;
-  line-height: 1.55556em;
-  line-height: 1.75em;
-  margin: 0;
+  line-height: 1.556em;
+  line-height: 1.944em;
+  margin-top: 0.389em;
+  margin-bottom: 0em;
 }
 figcaption h2 {
   font-size: 1.25em;
   line-height: 1.4em;
   line-height: 1.4em;
-  margin: 0;
   color: #8c8c8c;
   font-weight: 400;
+  margin: 0;
 }
 figcaption .datetime {
   font-size: 0.875em;
@@ -126,23 +135,31 @@ figcaption .datetime {
 
 article > h2 {
   font-size: 1.875em;
-  line-height: 1.86667em;
-  line-height: 0.93333em;
-  margin-top: 0.93333em;
-  margin-bottom: 0.93333em;
-  font-weight: 500;
+  line-height: 1.867em;
+  line-height: 0.933em;
+  margin-top: 0.933em;
+  margin-bottom: 0.933em;
+  font-weight: 400;
 }
 article > p {
-  font-size: 1.0625em;
-  line-height: 1.64706em;
+  font-size: 1.063em;
+  line-height: 1.647em;
   text-align: justify;
+  margin-bottom: 1.75em;
+  margin-top: 1.75em;
+}
+article a {
+  text-decoration: underline;
+}
+article a:hover {
+  color: #20cf6f;
 }
 
 footer {
   border-top-style: solid;
-  border-top-width: 0.0625em;
+  border-top-width: 0.063em;
   padding-top: 0.375em;
-  margin-top: 1.3125em;
+  margin-top: 1.313em;
   border-color: #bfbfbf;
 }
 footer p {
