@@ -1,6 +1,6 @@
 ---
 layout  : post
-person  : ErickMendonca
+person  : Erick Mendonça
 summary : Geek, dad, developer, married, gamer!
 ---
 ## Who are you, and what do you do?
