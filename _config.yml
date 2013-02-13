@@ -1,10 +1,10 @@
-## Global settings
+﻿## Global settings
 markdown  : redcarpet
 permalink : /interviews/:year
 exclude   : README.md
 
 ## Local settings
-title : The Setup / Erick Mendon�a
+title : The Setup / Erick Mendonça
 nav   :
   -
     name: Home
