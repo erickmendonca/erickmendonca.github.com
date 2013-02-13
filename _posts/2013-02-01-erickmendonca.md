@@ -40,6 +40,6 @@ I like to use command-line tools, but don't feel so agile with them for day-to-d
 
 ## What would be your dream setup?
 
-My dream setup is a PC, not so much powerful than mine, but with two large and high-res screens, in a quiet, clean, sound and child-proof room. A nice internet connection would help a lot. My laptop would be much more thinner and lighter, the screen would not useless on sunlight and the batteries would last a full day at least. I'm not asking much, am I?
+My dream setup is a PC, not so much powerful than mine, but with two large and high-res screens, in a quiet, clean, sound and child-proof room. A nice internet connection would help a lot. My laptop would be much more thinner and lighter, the screen would not be useless on sunlight and the batteries would last a full day at least. I'm not asking much, am I?
 
 I have much interest on messing around with game designing and development, and play with hardware on Arduino and Raspberry Pi.
