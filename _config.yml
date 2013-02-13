@@ -4,7 +4,7 @@ permalink : /interviews/:year
 exclude   : README.md
 
 ## Local settings
-title : The Setup
+title : The Setup / Erick Mendonça
 nav   :
   -
     name: Home
